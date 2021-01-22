@@ -1,0 +1,16 @@
+.top_nav .dropdown-menu li {
+    padding: 15px 0px 6px 15px !important;
+    font-size: 15px;
+}
+.action_btn {
+    min-width: 60px;
+}
+.input_row {
+    margin-bottom: 10px;
+}
+.btn-sm {
+    min-width: 60px;
+}
+.name_label { min-width: 100px; }
+.name_input { min-width: 300px; }
+.btn_create { margin-left: 15px; }
