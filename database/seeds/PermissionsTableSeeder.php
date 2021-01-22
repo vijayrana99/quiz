@@ -25,6 +25,12 @@ class PermissionsTableSeeder extends Seeder
             'guard_name' => 'web',
             'created_at' => date("Y-m-d h:i:s"),
             'updated_at' => date("Y-m-d h:i:s"),
+        ]); 
+        DB::table('permissions')->insert([
+            'name'       => 'manage_quiz',
+            'guard_name' => 'web',
+            'created_at' => date("Y-m-d h:i:s"),
+            'updated_at' => date("Y-m-d h:i:s"),
         ]);
     }
 }

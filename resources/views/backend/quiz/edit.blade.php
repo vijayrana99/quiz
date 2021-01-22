@@ -8,11 +8,7 @@
 </style>
 @stop
 
-@section('content')
 
-@if( ! Auth::user()->can('manage_quiz'))
-    @include('errors.401')
-@else
     <div class="clearfix"></div>
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -97,6 +93,5 @@
         </div>
     </div>
             
-    @endif
 
 @stop
